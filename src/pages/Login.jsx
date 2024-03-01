@@ -67,7 +67,7 @@ export const LoginPage = () => {
                     <Grid container>
                         <Grid item>
                             <Link href="#" variant="body2">
-                                {"Если нет аккаунта, зарегистрируйтесь"}
+                                {"Если нет аккаунта, зарегистрируйтесь!"}
                             </Link>
                         </Grid>
                     </Grid>

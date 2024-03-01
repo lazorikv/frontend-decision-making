@@ -1,0 +1,47 @@
+{
+  "token": [
+    {
+      "access": "vishjdvibjsdilvkjbsdklvjbskldjvbklsdjvbklsjdbv",
+      "refresh": "sdfjklgnklsdfjbngklsdjfbglksdjfbglksdjbfgkljsdbf",
+      "id": "1"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "typicode",
+      "address": "address",
+      "user_type": "admin"
+    },
+    {
+      "id": "2",
+      "username": "typicode1",
+      "address": "address1",
+      "user_type": "end user"
+    },
+    {
+      "id": "3",
+      "username": "typicode2",
+      "address": "address2",
+      "user_type": "admin"
+    },
+    {
+      "id": "4",
+      "username": "typicode3",
+      "address": "address3",
+      "user_type": "end user"
+    }
+  ]
+}

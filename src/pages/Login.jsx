@@ -34,7 +34,7 @@ export const LoginPage = () => {
         <Grid container component={Paper} style={{height: '80vh'}} alignItems="center" justifyContent="center">
             <Grid item xs={12} sm={8} md={5}>
                 <Typography component="h1" variant="h4">
-                    Войти
+                    Log in
                 </Typography>
                 <form onSubmit={handleSubmit}>
                     <TextField
@@ -42,7 +42,7 @@ export const LoginPage = () => {
                         variant="outlined"
                         required
                         fullWidth
-                        label="Имя пользователя"
+                        label="Username"
                         onChange={handleChange}
                         style={{margin: "12px 0"}}
                     />
@@ -52,7 +52,7 @@ export const LoginPage = () => {
                         required
                         fullWidth
                         type="password"
-                        label="Пароль"
+                        label="Password"
                         onChange={handleChange}
                         style={{margin: "12px 0"}}
                     />
@@ -63,12 +63,12 @@ export const LoginPage = () => {
                         color="primary"
                         style={{margin: "12px 0"}}
                     >
-                        Войти
+                        Log in
                     </Button>
                     <Grid container>
                         <Grid item>
                             <Link href="#" variant="body2">
-                                {"Если нет аккаунта, зарегистрируйтесь!"}
+                                {"You don't have an account? Sign up!"}
                             </Link>
                         </Grid>
                     </Grid>

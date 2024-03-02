@@ -10,7 +10,7 @@ import Layout from "./Layout";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
-    <BrowserRouter basename="/frontend-decision-making">
+    <BrowserRouter>
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="*" element={

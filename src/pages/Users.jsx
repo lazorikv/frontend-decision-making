@@ -31,8 +31,8 @@ export const UsersPage = () => {
 
   const columns = [
     { field: 'username', headerName: 'Username', flex: 1 },
-    { field: 'address', headerName: 'Address', flex: 1 },
-    { field: 'user_type', headerName: 'User Type', flex: 1 },
+    { field: 'phone', headerName: 'Phone', flex: 1 },
+    { field: 'website', headerName: 'Website', flex: 1 },
     {
       field: 'edit',
       headerName: 'Action',

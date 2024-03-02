@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import {useDispatch} from "react-redux";
 import {Button, TextField, Grid, Paper, Typography, Link} from "@mui/material";
 import {loginFailure, loginRequest, loginSuccess} from "../features/auth/authSlice.js";
@@ -26,6 +26,7 @@ export const LoginPage = () => {
             })
             .catch((error) => {
                 dispatch(loginFailure(error.toString()));
+                navigate('/'); // TODO: remove after implement auth on BE
             })
     };
 

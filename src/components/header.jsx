@@ -15,7 +15,10 @@ export const AppHeader = () => {
     return (
         <AppBar>
             <Toolbar variant="dense" style={{height: "60px", backgroundColor: "#89CFEF"}}>
-                <IconButton edge="start" color="inherit" aria-label="menu">
+                <IconButton edge="start" color="inherit" aria-label="menu" style={{ outline: "none" }}>
+                  <Link to="/" style={{ outline: "none" }}>
+                    <img src="/logo.png" alt="logo" style={{ width: "50px" }} />
+                  </Link>
                 </IconButton>
                 <Box flexGrow={1} />
                 <Link to="/users" >Users</Link>

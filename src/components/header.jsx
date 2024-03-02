@@ -1,4 +1,4 @@
-import { AppBar, Toolbar, Button, IconButton, Box } from "@mui/material";
+import { AppBar, Toolbar, IconButton, Box } from "@mui/material";
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
@@ -21,8 +21,8 @@ export const AppHeader = () => {
                   </Link>
                 </IconButton>
                 <Box flexGrow={1} />
-                <Link to="/users" >Users</Link>
-                <Button color="inherit" onClick={handleLogout}>Log out</Button>
+                <Link to="/users" style={{ marginRight: "40px" }}>Users</Link>
+                <Link to="/login" color="inherit" onClick={handleLogout} style={{ marginRight: "40px" }}>Log out</Link>
             </Toolbar>
         </AppBar>
     );
